@@ -1,7 +1,7 @@
 # Case Study 1: Danny's Diner #
 ![https://8weeksqlchallenge.com/case-study-1/](images/thumbnail.png)
 
-### 4 SQL files ###
+### Case study 1 has 4 SQL files ###
 members_table.sql -> for creating members table and inserting values in members table
 
 menu_table.sql -> for creating menu table and inserting values in menu table
