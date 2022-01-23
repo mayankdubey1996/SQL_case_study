@@ -43,9 +43,11 @@
 - Curry is the most common 1st order.
 - Ramen is most frequent dish orded by all customers.
 - Most frequest order by customers:
+
 				A -> Sushi
 				B -> Ramen, Curry, Sushi
 				C -> Ramen
+				
 - Money spent and total items orderd before customer becomes member.
 	Customer A spent $25 and ordered 2 items.
 	Customer B spent $40 and ordered 3 items.
