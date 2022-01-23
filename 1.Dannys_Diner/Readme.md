@@ -36,7 +36,7 @@ case_study.sql -> question and code to find all answers.
 1. The following questions are related creating basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
 
 2. Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
-3. 
+
 ### After Case study my Interesting suggestion to danny ###
 
 - Customer A spent $76, Customer B spent $74, Customer C spent $36.
