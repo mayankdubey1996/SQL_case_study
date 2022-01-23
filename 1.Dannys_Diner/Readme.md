@@ -19,7 +19,7 @@ case_study.sql -> question and code to find all answers.
  - I used Microsoft SQL server to solve the problems. 
 
 
-### Case Study Question ###
+### Case Study Question ### [solution](https://github.com/mayankdubey1996/SQL_case_study/blob/main/1.Dannys_Diner/solution.md)
 1. What is the total amount each customer spent at the restaurant?
 2. How many days has each customer visited the restaurant?
 3. What was the first item from the menu purchased by each customer?
@@ -31,14 +31,11 @@ case_study.sql -> question and code to find all answers.
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 10.In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
-### Bonus Question ###
+### Bonus Questions ###
 1. The following questions are related creating basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
-   Recreate the following table output using the available data:
-![](images/1.join_all.png)
 
 2. Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
-![](images/2.rank_all.png)
-
+3. 
 ### After Case study my Interesting suggestion to danny ###
 
 - Customer A spent $76, Customer B spent $74, Customer C spent $36.
