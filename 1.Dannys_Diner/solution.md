@@ -20,7 +20,7 @@ GROUP BY s.customer_id;
 
 ### 2. How many days has each customer visited the restaurant?
 
-** Answer: **
+**Answer:**
 
 ````sql
 SELECT s.customer_id,
@@ -29,13 +29,13 @@ FROM sales s
 GROUP BY (s.customer_id);
 ````
 
-** Output:**
+**Output:**
 ![My Image](images/2.sol.png)
 
 
 ### 3. What was the first item from the menu purchased by each customer?
 
-** Answer: **
+**Answer:**
 
 ````sql
 WITH first_item_purchased_cre AS
@@ -53,13 +53,14 @@ FROM first_item_purchased_cre
 WHERE order_number=1;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/3.sol.png)
 
 
 ### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 
-** Answer: **
+**Answer:**
 
 ````sql
 SELECT top 1 m.product_name,
@@ -71,13 +72,14 @@ GROUP BY m.product_name
 ORDER BY count(s.product_id) DESC;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/4.sol.png)
 
 
 ### 5. Which item was the most popular for each customer?
 
-** Answer: **
+**Answer:**
 
 ````sql
 WITH popular_item_cte AS
@@ -96,7 +98,8 @@ FROM popular_item_cte
 WHERE ranking = 1;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/5.sol.png)
 
 
@@ -122,7 +125,8 @@ FROM items_purchased_after_member
 WHERE ranking = 1;
 
 
-** Output:**
+**Output:**
+
 ![My Image](images/6.sol.png)
 
 
@@ -148,7 +152,8 @@ FROM items_purchased_before_member
 WHERE ranking = 1;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/7.sol.png)
 
 
@@ -169,7 +174,8 @@ WHERE mem.customer_id = s.customer_id
 GROUP BY s.customer_id;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/8.sol.png)
 
 
@@ -203,7 +209,8 @@ FROM prod_points_cte
 GROUP BY customer_id;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/9.sol.png)
 
 
@@ -247,7 +254,8 @@ FROM prod_points1
 GROUP BY customer_id;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/10.sol.png)
 
 
@@ -274,7 +282,8 @@ SELECT *
 FROM join_all_cte;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/11.sol.png)
 
 
@@ -295,7 +304,8 @@ SELECT *
 FROM ranking;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/12.sol.png)
 
 
