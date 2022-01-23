@@ -4,14 +4,14 @@
 
 **Answer:**
 
-----sql
+````sql
 SELECT s.customer_id,
        sum(men.price) AS total_price
 FROM sales s,
      menu men
 WHERE s.product_id = men.product_id
 GROUP BY s.customer_id;
-----
+````
 
 ** Output:**
 ![My Image](images/1.sol.png)
