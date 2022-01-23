@@ -18,6 +18,16 @@
  - The sample [data](https://8weeksqlchallenge.com/case-study-1/) is provided by danny.
  - I used Microsoft SQL server to solve the problems. 
 
+### sales data ###
+![https://8weeksqlchallenge.com/case-study-1/](images/sales.png)
+
+
+### menu data ###
+![https://8weeksqlchallenge.com/case-study-1/](images/menu.png)
+
+
+### members data ###
+![https://8weeksqlchallenge.com/case-study-1/](images/members.png)
 
 ### Case Study Question [solution](https://github.com/mayankdubey1996/SQL_case_study/blob/main/1.Dannys_Diner/solution.md)
 1. What is the total amount each customer spent at the restaurant?
