@@ -2,13 +2,13 @@
 ![https://8weeksqlchallenge.com/case-study-1/](images/thumbnail.png)
 
 ### Case study 1 has 4 SQL files ###
-members_table.sql -> for creating members table and inserting values in members table.
+**members_table.sql**: for creating members table and inserting values in members table.
 
-menu_table.sql -> for creating menu table and inserting values in menu table.
+**menu_table.sql**: for creating menu table and inserting values in menu table.
 
-sales_table.sql -> for creating sales table and inserting values in sales table.
+**sales_table.sql**: for creating sales table and inserting values in sales table.
 
-case_study.sql -> question and code to find all answers.
+**case_study.sql**: question and code to find all answers.
 
 ### Introduction ###
  - This is 1st case study of total 8 case studies. 
