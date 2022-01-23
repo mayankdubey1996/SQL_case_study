@@ -2,7 +2,7 @@
 
 ### 1. What is the total amount each customer spent at the restaurant?
 
-** Answer: **
+**Answer:**
 
 ````sql
 SELECT s.customer_id,
