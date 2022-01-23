@@ -13,7 +13,8 @@ WHERE s.product_id = men.product_id
 GROUP BY s.customer_id;
 ````
 
-** Output:**
+**Output:**
+
 ![My Image](images/1.sol.png)
 
 
