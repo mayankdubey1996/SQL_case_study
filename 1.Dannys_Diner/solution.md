@@ -132,7 +132,7 @@ WHERE ranking = 1;
 
 ### 7. Which item was purchased just before the customer became a member?
 
-** Answer: **
+**Answer:**
 
 ````sql
 WITH items_purchased_before_member AS
@@ -159,7 +159,7 @@ WHERE ranking = 1;
 
 ### 8. What is the total items and amount spent for each member before they became a member?
 
-** Answer: **
+**Answer:**
 
 ````sql
 SELECT s.customer_id,
@@ -182,7 +182,7 @@ GROUP BY s.customer_id;
 
 ### 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 
-** Answer: **
+**Answer:**
 
 ````sql
 WITH prod_points_cte AS
@@ -216,7 +216,7 @@ GROUP BY customer_id;
 
 ### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
-** Answer: **
+**Answer:**
 
 ````sql
 WITH sales_week_diff AS
@@ -263,7 +263,7 @@ GROUP BY customer_id;
 ### 1. Join all
 ### The following questions are related creating basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
 
-** Answer: **
+**Answer:**
 
 ````sql
 WITH join_all_cte AS
@@ -290,6 +290,7 @@ FROM join_all_cte;
 ### 2. Rank All
 ### Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
 
+**Answer:**
 
 ````sql
 WITH ranking_cte AS
