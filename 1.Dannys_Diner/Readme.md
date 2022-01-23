@@ -19,7 +19,8 @@ case_study.sql -> question and code to find all answers.
  - I used Microsoft SQL server to solve the problems. 
 
 
-### Case Study Question ### [solution](https://github.com/mayankdubey1996/SQL_case_study/blob/main/1.Dannys_Diner/solution.md)
+### Case Study Question ### 
+			[solution](https://github.com/mayankdubey1996/SQL_case_study/blob/main/1.Dannys_Diner/solution.md)
 1. What is the total amount each customer spent at the restaurant?
 2. How many days has each customer visited the restaurant?
 3. What was the first item from the menu purchased by each customer?
