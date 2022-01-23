@@ -1,4 +1,4 @@
-# Case Study 1: Danny's Diner #
+# Case Study 1: Danny's Diner # 🍛🍣
 ![https://8weeksqlchallenge.com/case-study-1/](images/thumbnail.png)
 
 ### Case study 1 has 4 SQL files ###
