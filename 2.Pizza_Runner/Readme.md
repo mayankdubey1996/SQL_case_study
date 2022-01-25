@@ -8,9 +8,11 @@
 	- **C. Ingredient Optimisation: 6 Questions**
 	- **D. Pricing and Ratings: 5 Questions**
 	- **E. Bonus Question: 1 Question**
+## ER Diagram
+![](images/er_diagram.png)
 	
 ### 4 File description 📂 ###
-**Data creation and Inserting Values
+**Data creation and Inserting Values**
 - customer_orders.sql
 
 - pizza_names.sql
