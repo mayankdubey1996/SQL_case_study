@@ -39,6 +39,8 @@ Transforming runner_orders Table
 3. duration column: Replacing 'null'(string) to NULL
 4. cancellation column: Replacing 'null'(string) to NULL
 */
+
+````sql
 SELECT * INTO runner_orders_clean
 FROM
   (SELECT order_id,
@@ -68,9 +70,11 @@ FROM
               ELSE cancellation
           END AS cancellation
    FROM runner_orders) AS vals;
+````
 
--- ALTERING DATA TYPE
+- Changing DATA TYPE
 
+````sql
 ALTER TABLE runner_orders_clean
 ALTER COLUMN pickup_time datetime;
 
@@ -85,31 +89,43 @@ ALTER COLUMN duration numeric;
 
 ALTER TABLE runner_orders_clean
 ALTER COLUMN cancellation varchar(30);
+````
 
 /*
 Transforming pizza_names_clean Table
 1. pizza_name column: Changing data type of column from "TEXT" to "VARCHAR" (compatible with sql server)
 */
+
+````sql
 SELECT * INTO pizza_names_clean
 FROM
   (SELECT pizza_id,
           cast(pizza_name AS varchar(20)) AS pizza_name
    FROM pizza_names) AS vals;
-
+````
 /*
 changing column type of pizza recipes table toppings column from text to varchar(30)
 */
+
+````sql
 ALTER TABLE pizza_recipes
 ALTER COLUMN toppings varchar(30);
+````
 
 /*
 changing column type of pizza_toppings table topping_name column from text to varchar(30)
 */
+
+````sql
 ALTER TABLE pizza_toppings
 ALTER COLUMN topping_name varchar(30);
+````
 
 /*
 changing column type of pizza names table pizza_name column from text to varchar(20)
 */
+
+````sql
 ALTER TABLE pizza_names
 ALTER COLUMN pizza_name varchar(20);
+````
