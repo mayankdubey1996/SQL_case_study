@@ -1,6 +1,14 @@
 # Case Study 1: Danny's Diner  🍛🍣
 ![https://8weeksqlchallenge.com/case-study-1/](images/thumbnail.png)
 
+### Introduction ###
+ - This is 1st case study of total 8 case studies. 
+ - Entity relationship diagram.
+![](images/er_diagram.png)	
+ - It consist of 3 tables members, sales and menu.
+ - The sample [data](https://8weeksqlchallenge.com/case-study-1/) is provided by danny.
+ - I used Microsoft SQL server to solve the problems. 
+
 ### Case study 1 has 4 SQL files ###
 **members_table.sql**: for creating members table and inserting values in members table.
 
@@ -9,14 +17,6 @@
 **sales_table.sql**: for creating sales table and inserting values in sales table.
 
 **case_study.sql**: question and code to find all answers.
-
-### Introduction ###
- - This is 1st case study of total 8 case studies. 
- - Entity relationship diagram.
-![](images/er_diagram.png)	
- - It consist of 3 tables members, sales and menu.
- - The sample [data](https://8weeksqlchallenge.com/case-study-1/) is provided by danny.
- - I used Microsoft SQL server to solve the problems. 
 
 ### sales data ###
 ![https://8weeksqlchallenge.com/case-study-1/](images/sales.png)
