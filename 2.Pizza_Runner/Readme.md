@@ -1,4 +1,4 @@
-# Case Study #2 - Pizza Runner #
+# Case Study #2 - Pizza Runner 🍕 #
 ![](images/Banner.png)
 
 ### Inroduction ###
@@ -8,3 +8,33 @@
 	- **C. Ingredient Optimisation: 6 Questions**
 	- **D. Pricing and Ratings: 5 Questions**
 	- **E. Bonus Question: 1 Question**
+	
+### 4 File description 📂 ###
+**Data creation and Inserting Values
+- customer_orders.sql
+
+- pizza_names.sql
+
+- pizza_recipes.sql
+
+- pizza_toppings.sql
+
+- runner_orders.sql
+
+- runners.sql
+
+**Data Cleaning file**
+- data_cleaning.sql -> Data Transformation and cleaning file.
+
+**Solution file**
+- a.pizza_metrics.sql
+
+- b.runner_customer_experience.sql
+
+- c.Ingredient_optimization.sql
+
+- d.pricing_ratings.sql
+
+
+
+
