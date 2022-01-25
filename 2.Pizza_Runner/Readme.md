@@ -11,7 +11,7 @@
 ## ER Diagram
 ![](images/er_diagram.png)
 	
-### 4 File description 📂 ###
+###  File description 📂 ###
 **Data creation and Inserting Values**
 - customer_orders.sql
 
