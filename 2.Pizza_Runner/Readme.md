@@ -1,5 +1,5 @@
 # Case Study #2 - Pizza Runner #
-![](images/banner.png)
+![](images/Banner.png)
 
 ### Inroduction ###
  - This case study has 5 parts
