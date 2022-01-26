@@ -1,1 +1,1 @@
-# SQL_case_study
+# SQL case studies
