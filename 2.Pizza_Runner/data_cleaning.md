@@ -1,6 +1,6 @@
 ## Tranforming Customer_orders table ##
-1. Exclusions column: Replacing '' and 'null' (string) with NULL
-2. Extras column: Replacing '' and 'null' (string) with NULL
+1. **Exclusions column:** Replacing '' and 'null' (string) with NULL
+2. **Extras column:** Replacing '' and 'null' (string) with NULL
 
 **Note:** creating new table called customer_orders_clean which has cleaned and tranformed data.
 
@@ -24,24 +24,24 @@ FROM
    FROM customer_orders) AS vals; 
 ````
 
-### changing data type of exclusions columns
+### changing data type of exclusions columns from text to varchar ###
 ````sql
 ALTER TABLE customer_orders_clean
 ALTER COLUMN exclusions varchar(20);
 ````
 
-### changing data type of extras columns
+### changing data type of extras columns from text to varchar ###
 ````sql
 ALTER TABLE customer_orders_clean
 ALTER COLUMN extras varchar(20);
 ````
 
 
-## Transforming runner_orders Table
-1. pickup_time column: Replacing 'null'(string) to NULL
-2. distance column: Replacing 'null'(string) to NULL
-3. duration column: Replacing 'null'(string) to NULL
-4. cancellation column: Replacing 'null'(string) to NULL
+## Transforming runner_orders Table ##
+1. **pickup_time column:** Replacing 'null'(string) to NULL
+2. **distance column:** Replacing 'null'(string) to NULL
+3. **duration column:** Replacing 'null'(string) to NULL
+4. **cancellation column:** Replacing 'null'(string) to NULL
 
 
 ````sql
@@ -76,21 +76,28 @@ FROM
    FROM runner_orders) AS vals;
 ````
 
-- Changing DATA TYPE
+### changing data type of exclusions columns to datetime ###
 
 ````sql
 ALTER TABLE runner_orders_clean
 ALTER COLUMN pickup_time datetime;
+````
 
+### changing data type of distance column to numeric ###
 
+````sql
 ALTER TABLE runner_orders_clean
 ALTER COLUMN distance numeric;
+````
 
+### changing data type of `duration` column to numeric ###
 
+````sql
 ALTER TABLE runner_orders_clean
 ALTER COLUMN duration numeric;
+````
 
-
+````sql
 ALTER TABLE runner_orders_clean
 ALTER COLUMN cancellation varchar(30);
 ````
