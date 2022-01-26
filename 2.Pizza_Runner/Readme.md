@@ -92,7 +92,7 @@
 ## E. Bonus Questions ##
 If Danny wants to expand his range of pizzas - how would this impact the existing data design? Write an INSERT statement to demonstrate what would happen if a new Supreme pizza with all the toppings was added to the Pizza Runner menu?
 
-## How to follow along ##
+## How to follow along? ##
 - I used Sql Server to code, hence made changes according to it. 
 - First create tables and insert values (**Data creation and Inserting Values**)
 	- [Runner_orders]()
