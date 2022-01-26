@@ -95,12 +95,12 @@ If Danny wants to expand his range of pizzas - how would this impact the existin
 ## How to follow along? ##
 - I used Sql Server to code, hence made changes according to it. 
 - First create tables and insert values (**Data creation and Inserting Values**)
-	- [Runner_orders]()
-	- [Runners]()
-	- [Customer Orders]()
-	- [Pizza Names]()
-	- [Pizza Recipes]()
-	- [Pizza Toppings]()
+	- [Runner_orders](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/runner_orders.sql)
+	- [Runners](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/runners.sql)
+	- [Customer Orders](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/customer_orders.sql)
+	- [Pizza Names](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/pizza_names.sql)
+	- [Pizza Recipes](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/pizza_recipes.sql)
+	- [Pizza Toppings](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/pizza_toppings.sql)
 - Data Cleaning 
 	- [Explanation](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/data_cleaning.md) 
 	- [code](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/data_cleaning.sql)
