@@ -95,4 +95,6 @@ If Danny wants to expand his range of pizzas - how would this impact the existin
 ## How to use files ##
 - I used Sql Server to code, hence made changes according to it. 
 - First create tables and insert values (**Data creation and Inserting Values**)
-- Data Cleaning [Explanation](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/data_cleaning.md) [codde](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/data_cleaning.sql)
+- Data Cleaning 
+	- [Explanation](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/data_cleaning.md) 
+	- [code](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/data_cleaning.sql)
