@@ -107,5 +107,4 @@ If Danny wants to expand his range of pizzas - how would this impact the existin
 ### Solution ###
 A. Pizza Metrics
 	- [Output and Code]()
-	
 	- [code file]()
