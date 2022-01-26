@@ -85,14 +85,11 @@ ALTER TABLE runner_orders_clean
 ALTER COLUMN cancellation varchar(30);
 
 /*
-Transforming pizza_names_clean Table
-1. pizza_name column: Changing data type of column from "TEXT" to "VARCHAR" (compatible with sql server)
+changing column type of pizza names table pizza_name column from text to varchar(20)
 */
-SELECT * INTO pizza_names_clean
-FROM
-  (SELECT pizza_id,
-          cast(pizza_name AS varchar(20)) AS pizza_name
-   FROM pizza_names) AS vals;
+ALTER TABLE pizza_names
+ALTER COLUMN pizza_name varchar(20);
+
 
 /*
 changing column type of pizza recipes table toppings column from text to varchar(30)
@@ -106,8 +103,3 @@ changing column type of pizza_toppings table topping_name column from text to va
 ALTER TABLE pizza_toppings
 ALTER COLUMN topping_name varchar(30);
 
-/*
-changing column type of pizza names table pizza_name column from text to varchar(20)
-*/
-ALTER TABLE pizza_names
-ALTER COLUMN pizza_name varchar(20);
