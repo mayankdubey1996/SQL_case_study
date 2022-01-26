@@ -1,4 +1,4 @@
-# Data Cleaning 🧹 and Data Transformation ✔️ #
+# Data Cleaning and Data Transformation 🧹✔️ #
 
 ## Tranforming customer_orders table ##
 1. **Exclusions column:** Replacing '' and 'null' (string) with NULL
