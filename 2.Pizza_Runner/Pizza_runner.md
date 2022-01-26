@@ -4,8 +4,14 @@
 
 **Answer:**
 
+````sql
 SELECT count(order_id) AS total_order
 FROM customer_orders_clean;
+````sql
+
+**Output:**
+
+![My Image](A.images/sol1.png)
 
 --2.How many unique customer orders were made?
 
