@@ -46,6 +46,8 @@ ALTER COLUMN extras varchar(20);
 4. **cancellation column:** Replacing 'null'(string) to NULL
 
 
+**Note:** creating new table called runner_orders_clean which has cleaned and tranformed data.
+
 ````sql
 SELECT * INTO runner_orders_clean
 FROM
