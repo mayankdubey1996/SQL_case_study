@@ -1,8 +1,9 @@
-*Tranforming Customer_orders Table
+## Tranforming Customer_orders Table ##
 1. Exclusions column: Replacing '' and 'null' (string) with NULL
 2. Extras column: Replacing '' and 'null' (string) with NULL
-Note: creating new table called customer_orders_clean which has cleaned and tranformed data.
-*/
+
+**Note:** creating new table called customer_orders_clean which has cleaned and tranformed data.
+
 ````sql
 SELECT * INTO customer_orders_clean
 FROM
@@ -23,22 +24,25 @@ FROM
    FROM customer_orders) AS vals; 
 ````
 
+### changing data type of exclusions columns
 ````sql
 ALTER TABLE customer_orders_clean
 ALTER COLUMN exclusions varchar(20);
+````
 
-
+### changing data type of extras columns
+````sql
 ALTER TABLE customer_orders_clean
 ALTER COLUMN extras varchar(20);
 ````
 
-/*
-Transforming runner_orders Table
+
+## Transforming runner_orders Table
 1. pickup_time column: Replacing 'null'(string) to NULL
 2. distance column: Replacing 'null'(string) to NULL
 3. duration column: Replacing 'null'(string) to NULL
 4. cancellation column: Replacing 'null'(string) to NULL
-*/
+
 
 ````sql
 SELECT * INTO runner_orders_clean
