@@ -94,7 +94,7 @@ If Danny wants to expand his range of pizzas - how would this impact the existin
 
 ## How to follow along? ##
 - I used Sql Server to code, hence made changes according to it. 
-- First create tables and insert values (**Data creation and Inserting Values**)
+- First create tables and insert values (**Table creation and Inserting Values**)
 	- [Runner orders](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/runner_orders.sql)
 	- [Runners](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/runners.sql)
 	- [Customer Orders](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/customer_orders.sql)
