@@ -7,7 +7,7 @@
 ````sql
 SELECT count(order_id) AS total_order
 FROM customer_orders_clean;
-````sql
+````
 
 **Output:**
 
