@@ -1,4 +1,4 @@
-## Tranforming Customer_orders table ##
+## Tranforming customer_orders table ##
 1. **Exclusions column:** Replacing '' and 'null' (string) with NULL
 2. **Extras column:** Replacing '' and 'null' (string) with NULL
 
@@ -24,13 +24,13 @@ FROM
    FROM customer_orders) AS vals; 
 ````
 
-### changing data type of exclusions columns from text to varchar ###
+### changing data type of `exclusions` columns from text to varchar ###
 ````sql
 ALTER TABLE customer_orders_clean
 ALTER COLUMN exclusions varchar(20);
 ````
 
-### changing data type of extras columns from text to varchar ###
+### changing data type of `extras` columns from text to varchar ###
 ````sql
 ALTER TABLE customer_orders_clean
 ALTER COLUMN extras varchar(20);
@@ -76,14 +76,14 @@ FROM
    FROM runner_orders) AS vals;
 ````
 
-### changing data type of exclusions columns to datetime ###
+### changing data type of `exclusions` columns to datetime ###
 
 ````sql
 ALTER TABLE runner_orders_clean
 ALTER COLUMN pickup_time datetime;
 ````
 
-### changing data type of distance column to numeric ###
+### changing data type of `distance` column to numeric ###
 
 ````sql
 ALTER TABLE runner_orders_clean
@@ -97,46 +97,40 @@ ALTER TABLE runner_orders_clean
 ALTER COLUMN duration numeric;
 ````
 
+### changing data type of `cancellation` column to numeric ###
+
+
 ````sql
 ALTER TABLE runner_orders_clean
 ALTER COLUMN cancellation varchar(30);
 ````
 
-/*
-Transforming pizza_names_clean Table
-1. pizza_name column: Changing data type of column from "TEXT" to "VARCHAR" (compatible with sql server)
-*/
+## Transforming pizza_names Table ##
 
-````sql
-SELECT * INTO pizza_names_clean
-FROM
-  (SELECT pizza_id,
-          cast(pizza_name AS varchar(20)) AS pizza_name
-   FROM pizza_names) AS vals;
+### changing data type of `pizza_name` column from text to varchar ###
+ 
+ ````sql
+ALTER TABLE pizza_names
+ALTER COLUMN pizza_name varchar(30);
 ````
-/*
-changing column type of pizza recipes table toppings column from text to varchar(30)
-*/
+
+## Transforming pizza_recipes Table ##
+ 
+### changing data type of `topping` column from text to varchar ###
 
 ````sql
 ALTER TABLE pizza_recipes
 ALTER COLUMN toppings varchar(30);
 ````
 
-/*
-changing column type of pizza_toppings table topping_name column from text to varchar(30)
-*/
+## Transforming pizza_toppings Table ##
+ 
+### changing data type of `topping_name` column from text to varchar ###
+
 
 ````sql
 ALTER TABLE pizza_toppings
 ALTER COLUMN topping_name varchar(30);
 ````
 
-/*
-changing column type of pizza names table pizza_name column from text to varchar(20)
-*/
 
-````sql
-ALTER TABLE pizza_names
-ALTER COLUMN pizza_name varchar(20);
-````
