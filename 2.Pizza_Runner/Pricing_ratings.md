@@ -30,7 +30,7 @@ WHERE  distance IS NOT NULL;
 ![My Image](D.images/sol1.png)
 
 #### 2. What if there was an additional $1 charge for any pizza extras?
-- **** Add cheese is $1 extra
+- **Add cheese is $1 extra**
 
 **Answer:**
 
@@ -173,7 +173,8 @@ GROUP BY c.customer_id,
          DATEDIFF(MINUTE, order_time, pickup_time),
          duration,
          distance / (duration / 60),
-         runner_rating;````
+         runner_rating;
+ ````
 
 **Output:**
 
