@@ -104,7 +104,7 @@ If Danny wants to expand his range of pizzas - how would this impact the existin
 - Data Cleaning 
 	- [Explanation](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/data_cleaning.md) 
 	- [code](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/data_cleaning.sql)
-### Solution ###
+## Solution ##
 #### A. Pizza Metrics  🍕  <br /> ####
 - [Output and Code](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/Pizza_runner.md) <br />
 - [code file](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/a.pizza_metrics.sql) <br />
