@@ -118,8 +118,8 @@ If Danny wants to expand his range of pizzas - how would this impact the existin
 - [code file](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/Ingredient_optimization.md) <br />
 
 #### D. Pricing and Ratings <br /> ####
-- [Output and Code](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/d.pricing_ratings.sql) <br />
-- [code file](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/Pricing_ratings.md) <br />
+- [Output and Code](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/Pricing_ratings.md) <br />
+- [code file](https://github.com/mayankdubey1996/SQL_case_study/blob/main/2.Pizza_Runner/d.pricing_ratings.sql) <br />
 
 #### E. Bonus Questions  <br /> ####
 - **Coming Soon**
