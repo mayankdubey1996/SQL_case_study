@@ -1,3 +1,14 @@
+# Case Study 1: Danny's Diner  🍛🍣
+![https://8weeksqlchallenge.com/case-study-1/](images/thumbnail.png)
+
+### Introduction ###
+ - This is 1st case study of total 8 case studies. 
+ - Entity relationship diagram.
+![](images/er_diagram.png)	
+ - It consist of 3 tables members, sales and menu.
+ - The sample [data](https://8weeksqlchallenge.com/case-study-1/) is provided by danny.
+ - I used Microsoft SQL server to solve the problems
+
 # Case Study Solution 🍛🍣
 
 ### 1. What is the total amount each customer spent at the restaurant?
